@@ -1,0 +1,60 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    background-color: #ffffff;
+}
+
+#body_wrap {
+    margin-top: 5%;
+    margin-left: auto;
+	margin-right: auto;
+    width: 77%;
+}
+
+#header_id {
+	display: flex;
+}
+
+#header_id div {
+	flex: 1;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 25px;
+	position: relative;
+}
+
+.social {
+	margin-top: -10px;
+	width: 195px;
+	position: relative;
+}
+
+img.social {
+	width: 20.9px;
+	margin-right: 4.5%;
+}
+
+.navigation {
+	float: right;
+}
+
+img.navigation:hover {
+	border-bottom: 2px black solid;
+}
+
+img.navigation {
+	width: 20%;
+	margin-right: 6%;
+}
+
+#tagline_id p {
+	font-size: 44px;
+}
+
+p strong {
+	font-weight: 400;
+}
+
