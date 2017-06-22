@@ -34,7 +34,13 @@ h1 {
 
 img.social {
 	width: 20.9px;
-	margin-right: 4.5%;
+	margin-left: 3.3%;
+	border: 0;
+}
+
+img.social:hover {
+	transition: opacity 0.5s ease-in-out;
+	opacity: .5;
 }
 
 .navigation {
@@ -42,11 +48,11 @@ img.social {
 }
 
 img.navigation:hover {
-	border-bottom: 2px black solid;
+	transition: opacity 0.5s ease-in-out;
+	opacity: .5;
 }
 
 img.navigation {
-	width: 20%;
 	margin-right: 6%;
 }
 
