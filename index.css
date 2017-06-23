@@ -5,6 +5,10 @@ body {
     background-color: #ffffff;
 }
 
+img {
+	max-width: 100%;
+}
+
 #body_wrap {
     margin-top: 5%;
     margin-left: auto;
@@ -14,6 +18,16 @@ body {
 
 #header_id {
 	display: flex;
+}
+
+#featured_id {
+	display: flex;
+	width: 100%;
+	flex-flow: row wrap;
+}
+
+#featured_id div {
+	width: 50%;
 }
 
 #header_id div {
@@ -39,7 +53,7 @@ img.social {
 }
 
 img.social:hover {
-	transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s linear;
 	opacity: .5;
 }
 
@@ -48,7 +62,7 @@ img.social:hover {
 }
 
 img.navigation:hover {
-	transition: opacity 0.5s ease-in-out;
+	transition: opacity 0.5s linear;
 	opacity: .5;
 }
 
