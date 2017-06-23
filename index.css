@@ -9,6 +9,14 @@ img {
 	max-width: 100%;
 }
 
+a, a:visited, a:active {
+	color: #000000;
+}
+
+a:hover {
+	color: #9B9B9B;
+}
+
 #body_wrap {
     margin-top: 5%;
     margin-left: auto;
@@ -17,9 +25,38 @@ img {
 }
 
 #header_id {
-	display: flex;
+	width: 100%;
+	float: right;
+	margin-bottom: 5%;
 }
 
+.title {
+	margin-top: 10px;
+	position: fixed;
+}
+
+.navigation {
+	float: right;
+	width: 50%;
+}
+
+img.navigation:hover {
+	transition: opacity 0.5s linear;
+	opacity: 1;
+}
+
+img.navigation {
+	opacity: 0.5;
+	margin-right: 6%;
+}
+
+#tagline_id {
+	font-size: 44px;
+}
+
+p strong {
+	font-weight: 400;
+}
 #featured_id {
 	display: flex;
 	width: 100%;
@@ -30,10 +67,6 @@ img {
 	width: 50%;
 }
 
-#header_id div {
-	flex: 1;
-}
-
 h1 {
     font-weight: 800;
     font-size: 25px;
@@ -42,14 +75,13 @@ h1 {
 
 .social {
 	margin-top: -10px;
-	width: 195px;
-	position: relative;
+	width: 13px;
 }
 
 img.social {
-	width: 20.9px;
-	margin-left: 3.3%;
-	border: 0;
+	margin-top: -5px;
+	border: 1px #9B9B9B solid;
+	padding: 5px;
 }
 
 img.social:hover {
@@ -57,24 +89,25 @@ img.social:hover {
 	opacity: .5;
 }
 
-.navigation {
-	float: right;
+#social_id {
+	opacity: 1;
+	position: fixed;
+	right: 13%;
+	bottom: 10%;
+	transition: opacity 1s linear;
 }
 
-img.navigation:hover {
-	transition: opacity 0.5s linear;
-	opacity: .5;
+#footer_id {
+	text-align: center;
+	margin: 10%;
+	padding: 5%;
 }
 
-img.navigation {
-	margin-right: 6%;
+p.main {
+	font-size: 34px;
 }
 
-#tagline_id p {
-	font-size: 44px;
+p.sub {
+	font-size: 24px;
+	word-spacing: 30px;
 }
-
-p strong {
-	font-weight: 400;
-}
-

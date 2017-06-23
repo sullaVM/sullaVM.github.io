@@ -17,5 +17,14 @@ function script() {
             y[i].style.padding = '0px';
         }
     }
-
 }
+
+window.onscroll = function(ev) {
+    var x = document.getElementById("social_id");
+    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
+        x.style.opacity='0';
+    } else {
+        x.style.opacity='1';
+    }
+
+};
